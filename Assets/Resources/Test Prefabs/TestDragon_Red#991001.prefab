@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1926878778625822203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4895924896168618558}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4895924896168618558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926878778625822203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.768, y: 0.172, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6200446012791703068}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6200446012655446985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6200446012655446986}
+  - component: {fileID: 7809089670230109495}
+  - component: {fileID: 1935052468447055019}
+  - component: {fileID: 8519605355910447402}
+  - component: {fileID: 8265213162775636670}
+  m_Layer: 0
+  m_Name: TestDragon_Red#991001
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6200446012655446986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200446012655446985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6200446012791630122}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7809089670230109495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200446012655446985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8624bfc0a1488241b116faaeb09d074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitType: 1
+  animator: {fileID: 6200446012800820372}
+  spineControl: {fileID: 0}
+  firePoint: {fileID: 1926878778625822203}
+--- !u!114 &1935052468447055019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200446012655446985}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad115aca74ce3c4891b3f6de0b4aae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedExposedParameters: []
+  _boundGraphSerialization: 
+  _boundGraphObjectReferences: []
+  _boundGraphSource:
+    _version: 0
+    _category: 
+    _comments: 
+    _translation: {x: 0, y: 0}
+    _zoomFactor: 1
+  _firstActivation: 0
+  _enableAction: 0
+  _disableAction: 0
+  _lockBoundGraphPrefabOverrides: 1
+  _preInitializeSubGraphs: 0
+  _updateMode: 0
+  _graph: {fileID: 11400000, guid: 7f325a60b5909554799ac90d143a60b6, type: 2}
+  _blackboard: {fileID: 8519605355910447402}
+--- !u!114 &8519605355910447402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200446012655446985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedBlackboard: '{"_variables":{"Component":{"_value":{},"_name":"Component","_id":"f0aa8c22-b599-4e27-b5dc-5a125bd00c91","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+    ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"UnitAnimator":{"_propertyPath":"UnitConfig.animator","_name":"UnitAnimator","_id":"15c98fd9-4fc7-4b32-960c-ffd90e17cd55","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Animator,
+    UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"movement_param":{"_value":{},"_name":"movement_param","_id":"5c2b5e1d-f25a-48c4-b2fa-a9456874479a","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+    ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"MoveSpeed":{"_value":3.0,"_name":"MoveSpeed","_id":"dac330d5-6abf-4014-b388-3a801da1905f","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"RotSpeed":{"_value":3.0,"_name":"RotSpeed","_id":"9f33ddcf-1e6c-41a9-8e8a-4bc4f3fc9938","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"SpawnPoint":{"_name":"SpawnPoint","_id":"82a977c6-6fb4-4eb5-8a5a-6dd7907bb079","$type":"NodeCanvas.Framework.Variable`1[[SpawnPointInfo,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Animation_Param":{"_value":{},"_name":"Animation_Param","_id":"577e50d5-b20a-4309-82b0-8ac0fac1e46b","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+    ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"Idle":{"_value":"Idle","_name":"Idle","_id":"61ccdb4c-a84e-4f15-81a8-2a305d43b239","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Walk":{"_value":"Walk","_name":"Walk","_id":"cd4ea102-49fc-42c4-9eb4-107eaa4f821e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"CastSpell":{"_value":"CastSpell","_name":"CastSpell","_id":"1c39ddee-5142-42e8-bc4d-e7d5a47ef2eb","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Run":{"_value":"Run","_name":"Run","_id":"0bb14e46-e5e9-4600-a18f-e382a3a54ceb","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"TakeDamage":{"_value":"TakeDamage","_name":"TakeDamage","_id":"d99e5e3b-aff6-4dfc-aa41-a368da22009b","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Die":{"_value":"Die","_name":"Die","_id":"62ad046f-1be3-4344-9466-8e089444b05e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"ProjectileAttack":{"_value":"ProjectileAttack","_name":"ProjectileAttack","_id":"4793cc18-967a-44b1-9ed6-2b9e3e7af11c","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FireBreathAttack_Start":{"_value":"FireBreathAttack-Start","_name":"FireBreathAttack_Start","_id":"5c75a774-6e2e-4cf4-bf6d-865c50de8dab","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FireBreathAttack_Mid":{"_value":"FireBreathAttack-Middle","_name":"FireBreathAttack_Mid","_id":"ec91aa4b-f783-4576-a190-612c20f9e02f","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FireBreathAttack_End":{"_value":"FireBreathAttack-End","_name":"FireBreathAttack_End","_id":"fc74f763-9315-48a7-958f-a902ba3bae1b","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyIdle":{"_value":"FlyIdle","_name":"FlyIdle","_id":"4cfbf860-fedb-4e2b-ac49-a40dac0bde4e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyForward":{"_value":"FlyForward","_name":"FlyForward","_id":"5936fc4d-89f0-4d13-97f5-a441c05adbd1","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyCastSpell":{"_value":"FlyCastSpell","_name":"FlyCastSpell","_id":"255482a0-1486-4009-b453-fdcd8f375628","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyTakeDamage":{"_value":"FlyTakeDamage","_name":"FlyTakeDamage","_id":"b85048e7-a35a-44cf-8666-fafad1f92613","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyDie":{"_value":"FlyDie","_name":"FlyDie","_id":"0d2230f0-3794-4559-974a-2874057d2aa0","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"FlyProjectileAttack":{"_value":"FlyProjectileAttack","_name":"FlyProjectileAttack","_id":"ba2281b9-025d-4409-8b5e-67dcb7df43b9","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Other_Param":{"_value":{},"_name":"Other_Param","_id":"93f918a6-a5fb-4891-a0b2-d7ae1f2833f7","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+    ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"UseCellTrans":{"_name":"UseCellTrans","_id":"9eed476b-8617-474b-a3bb-ccb8f73b83fa","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Battle_Param":{"_value":{},"_name":"Battle_Param","_id":"61517113-4539-4dd0-854d-250af4f35e6f","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+    ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"SearchRadius":{"_value":10.0,"_name":"SearchRadius","_id":"e4468294-10c1-4e84-a682-e97ae170790a","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackRadius":{"_name":"AttackRadius","_id":"63b9ecb0-384b-4cdc-8295-bf84687fb1d8","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
+  _objectReferences: []
+  _serializedVariables:
+  - _json: '{"_value":{},"_name":"Component","_id":"f0aa8c22-b599-4e27-b5dc-5a125bd00c91","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+      ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_propertyPath":"UnitConfig.animator","_name":"UnitAnimator","_id":"15c98fd9-4fc7-4b32-960c-ffd90e17cd55","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":{},"_name":"movement_param","_id":"5c2b5e1d-f25a-48c4-b2fa-a9456874479a","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+      ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":3.0,"_name":"MoveSpeed","_id":"dac330d5-6abf-4014-b388-3a801da1905f","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":3.0,"_name":"RotSpeed","_id":"9f33ddcf-1e6c-41a9-8e8a-4bc4f3fc9938","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"SpawnPoint","_id":"82a977c6-6fb4-4eb5-8a5a-6dd7907bb079","$type":"NodeCanvas.Framework.Variable`1[[SpawnPointInfo,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":{},"_name":"Animation_Param","_id":"577e50d5-b20a-4309-82b0-8ac0fac1e46b","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+      ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":"Idle","_name":"Idle","_id":"61ccdb4c-a84e-4f15-81a8-2a305d43b239","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"Walk","_name":"Walk","_id":"cd4ea102-49fc-42c4-9eb4-107eaa4f821e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"CastSpell","_name":"CastSpell","_id":"1c39ddee-5142-42e8-bc4d-e7d5a47ef2eb","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"Run","_name":"Run","_id":"0bb14e46-e5e9-4600-a18f-e382a3a54ceb","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"TakeDamage","_name":"TakeDamage","_id":"d99e5e3b-aff6-4dfc-aa41-a368da22009b","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"Die","_name":"Die","_id":"62ad046f-1be3-4344-9466-8e089444b05e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"ProjectileAttack","_name":"ProjectileAttack","_id":"4793cc18-967a-44b1-9ed6-2b9e3e7af11c","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FireBreathAttack-Start","_name":"FireBreathAttack_Start","_id":"5c75a774-6e2e-4cf4-bf6d-865c50de8dab","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FireBreathAttack-Middle","_name":"FireBreathAttack_Mid","_id":"ec91aa4b-f783-4576-a190-612c20f9e02f","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FireBreathAttack-End","_name":"FireBreathAttack_End","_id":"fc74f763-9315-48a7-958f-a902ba3bae1b","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyIdle","_name":"FlyIdle","_id":"4cfbf860-fedb-4e2b-ac49-a40dac0bde4e","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyForward","_name":"FlyForward","_id":"5936fc4d-89f0-4d13-97f5-a441c05adbd1","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyCastSpell","_name":"FlyCastSpell","_id":"255482a0-1486-4009-b453-fdcd8f375628","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyTakeDamage","_name":"FlyTakeDamage","_id":"b85048e7-a35a-44cf-8666-fafad1f92613","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyDie","_name":"FlyDie","_id":"0d2230f0-3794-4559-974a-2874057d2aa0","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":"FlyProjectileAttack","_name":"FlyProjectileAttack","_id":"ba2281b9-025d-4409-8b5e-67dcb7df43b9","$type":"NodeCanvas.Framework.Variable`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":{},"_name":"Other_Param","_id":"93f918a6-a5fb-4891-a0b2-d7ae1f2833f7","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+      ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_name":"UseCellTrans","_id":"9eed476b-8617-474b-a3bb-ccb8f73b83fa","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":{},"_name":"Battle_Param","_id":"61517113-4539-4dd0-854d-250af4f35e6f","$type":"NodeCanvas.Framework.Variable`1[[NodeCanvas.Framework.VariableSeperator,
+      ParadoxNotion, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":10.0,"_name":"SearchRadius","_id":"e4468294-10c1-4e84-a682-e97ae170790a","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"AttackRadius","_id":"63b9ecb0-384b-4cdc-8295-bf84687fb1d8","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+--- !u!114 &8265213162775636670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200446012655446985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d131786cdf7c274bb93a6a0089390d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recycleTime: 3
+--- !u!1001 &6200446012791251160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6200446012655446986}
+    m_Modifications:
+    - target: {fileID: 126002, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_Name
+      value: Toon Dragon-Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9569356, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7b955894912c7ca4aa7b35e21f365da9, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07d421e6f47c0424f97198e7ee8ce30c, type: 3}
+--- !u!4 &6200446012791630122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 412146, guid: 07d421e6f47c0424f97198e7ee8ce30c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6200446012791251160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6200446012800820372 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9569356, guid: 07d421e6f47c0424f97198e7ee8ce30c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6200446012791251160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6200446012791703068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 468676, guid: 07d421e6f47c0424f97198e7ee8ce30c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6200446012791251160}
+  m_PrefabAsset: {fileID: 0}

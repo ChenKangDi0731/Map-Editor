@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MapInfo CreateTime="2020/10/12 11:11:20">
+  <MapSize x="20" y="20" MapXOffsetSign="-1" MapYOffsetSign="-1" />
+  <MapStartPoint x="-10.5" y="0" z="-10.5" />
+  <BaseCellSize x="1" y="1" z="1" />
+  <Cell id="452" CellType="4000035">
+    <CellPos x="-4" y="0" z="2.999999" />
+    <CellGridPos x="6" y="13" z="1" />
+  </Cell>
+  <Cell id="404" CellType="4000033">
+    <CellPos x="1" y="0" z="2" />
+    <CellGridPos x="11" y="12" z="1" />
+  </Cell>
+  <Cell id="406" CellType="4000033">
+    <CellPos x="0" y="0" z="2" />
+    <CellGridPos x="10" y="12" z="1" />
+  </Cell>
+  <Cell id="408" CellType="4000033">
+    <CellPos x="-1" y="0" z="2" />
+    <CellGridPos x="9" y="12" z="1" />
+  </Cell>
+  <Cell id="410" CellType="4000033">
+    <CellPos x="-2" y="0" z="2" />
+    <CellGridPos x="8" y="12" z="1" />
+  </Cell>
+  <Cell id="412" CellType="4000033">
+    <CellPos x="-3" y="0" z="2" />
+    <CellGridPos x="7" y="12" z="1" />
+  </Cell>
+  <Cell id="414" CellType="4000033">
+    <CellPos x="-4" y="0" z="2" />
+    <CellGridPos x="6" y="12" z="1" />
+  </Cell>
+  <Cell id="450" CellType="4000035">
+    <CellPos x="-3" y="0" z="2.999999" />
+    <CellGridPos x="7" y="13" z="1" />
+  </Cell>
+  <Cell id="448" CellType="4000035">
+    <CellPos x="-2" y="0" z="2.999999" />
+    <CellGridPos x="8" y="13" z="1" />
+  </Cell>
+  <Cell id="446" CellType="4000035">
+    <CellPos x="-1" y="0" z="2.999999" />
+    <CellGridPos x="9" y="13" z="1" />
+  </Cell>
+  <Cell id="444" CellType="4000035">
+    <CellPos x="0" y="0" z="2.999999" />
+    <CellGridPos x="10" y="13" z="1" />
+  </Cell>
+  <Cell id="442" CellType="4000035">
+    <CellPos x="1" y="0" z="2.999999" />
+    <CellGridPos x="11" y="13" z="1" />
+  </Cell>
+  <Cell id="428" CellType="4000033">
+    <CellPos x="-4" y="0" z="1" />
+    <CellGridPos x="6" y="11" z="1" />
+  </Cell>
+  <Cell id="430" CellType="4000033">
+    <CellPos x="-3" y="0" z="1" />
+    <CellGridPos x="7" y="11" z="1" />
+  </Cell>
+  <Cell id="432" CellType="4000033">
+    <CellPos x="-2" y="0" z="1" />
+    <CellGridPos x="8" y="11" z="1" />
+  </Cell>
+  <Cell id="434" CellType="4000033">
+    <CellPos x="-1" y="0" z="1" />
+    <CellGridPos x="9" y="11" z="1" />
+  </Cell>
+  <Cell id="436" CellType="4000033">
+    <CellPos x="0" y="0" z="1" />
+    <CellGridPos x="10" y="11" z="1" />
+  </Cell>
+  <Cell id="438" CellType="4000033">
+    <CellPos x="1" y="0" z="1" />
+    <CellGridPos x="11" y="11" z="1" />
+  </Cell>
+  <Cell id="440" CellType="4000035">
+    <CellPos x="2" y="0" z="2.999999" />
+    <CellGridPos x="12" y="13" z="1" />
+  </Cell>
+  <Cell id="454" CellType="4000035">
+    <CellPos x="2" y="0" z="-1" />
+    <CellGridPos x="12" y="9" z="1" />
+  </Cell>
+  <Cell id="456" CellType="4000035">
+    <CellPos x="1" y="0" z="-1" />
+    <CellGridPos x="11" y="9" z="1" />
+  </Cell>
+  <Cell id="458" CellType="4000035">
+    <CellPos x="0" y="0" z="-1" />
+    <CellGridPos x="10" y="9" z="1" />
+  </Cell>
+  <Cell id="460" CellType="4000035">
+    <CellPos x="-1" y="0" z="-1" />
+    <CellGridPos x="9" y="9" z="1" />
+  </Cell>
+  <Cell id="462" CellType="4000035">
+    <CellPos x="-2" y="0" z="-1" />
+    <CellGridPos x="8" y="9" z="1" />
+  </Cell>
+  <Cell id="464" CellType="4000035">
+    <CellPos x="-3" y="0" z="-1" />
+    <CellGridPos x="7" y="9" z="1" />
+  </Cell>
+  <Cell id="466" CellType="4000035">
+    <CellPos x="-4" y="0" z="-1" />
+    <CellGridPos x="6" y="9" z="1" />
+  </Cell>
+  <Cell id="468" CellType="4000039">
+    <CellPos x="-5" y="0" z="2.999999" />
+    <CellGridPos x="5" y="13" z="1" />
+  </Cell>
+  <Cell id="470" CellType="4000039">
+    <CellPos x="-5" y="0" z="-1" />
+    <CellGridPos x="5" y="9" z="1" />
+  </Cell>
+  <Cell id="472" CellType="4000037">
+    <CellPos x="-5" y="0" z="2" />
+    <CellGridPos x="5" y="12" z="1" />
+  </Cell>
+  <Cell id="476" CellType="4000037">
+    <CellPos x="-5" y="0" z="0" />
+    <CellGridPos x="5" y="10" z="1" />
+  </Cell>
+  <Cell id="480" CellType="4000035">
+    <CellPos x="-5" y="0" z="1" />
+    <CellGridPos x="5" y="11" z="1" />
+  </Cell>
+  <Cell id="482" CellType="4000033">
+    <CellPos x="-4" y="0" z="0" />
+    <CellGridPos x="6" y="10" z="1" />
+  </Cell>
+  <Cell id="484" CellType="4000033">
+    <CellPos x="-3" y="0" z="0" />
+    <CellGridPos x="7" y="10" z="1" />
+  </Cell>
+  <Cell id="486" CellType="4000033">
+    <CellPos x="-2" y="0" z="0" />
+    <CellGridPos x="8" y="10" z="1" />
+  </Cell>
+  <Cell id="488" CellType="4000033">
+    <CellPos x="-1" y="0" z="0" />
+    <CellGridPos x="9" y="10" z="1" />
+  </Cell>
+  <Cell id="490" CellType="4000033">
+    <CellPos x="0" y="0" z="0" />
+    <CellGridPos x="10" y="10" z="1" />
+  </Cell>
+  <Cell id="492" CellType="4000033">
+    <CellPos x="1" y="0" z="0" />
+    <CellGridPos x="11" y="10" z="1" />
+  </Cell>
+  <Cell id="494" CellType="4000033">
+    <CellPos x="2" y="0" z="0" />
+    <CellGridPos x="12" y="10" z="1" />
+  </Cell>
+  <Cell id="496" CellType="4000033">
+    <CellPos x="3" y="0" z="0" />
+    <CellGridPos x="13" y="10" z="1" />
+  </Cell>
+  <Cell id="498" CellType="4000033">
+    <CellPos x="4" y="0" z="0" />
+    <CellGridPos x="14" y="10" z="1" />
+  </Cell>
+  <Cell id="500" CellType="4000033">
+    <CellPos x="5" y="0" z="0" />
+    <CellGridPos x="15" y="10" z="1" />
+  </Cell>
+  <Cell id="502" CellType="4000033">
+    <CellPos x="3" y="0" z="-1" />
+    <CellGridPos x="13" y="9" z="1" />
+  </Cell>
+  <Cell id="504" CellType="4000033">
+    <CellPos x="4" y="0" z="-1" />
+    <CellGridPos x="14" y="9" z="1" />
+  </Cell>
+  <Cell id="506" CellType="4000033">
+    <CellPos x="5" y="0" z="-1" />
+    <CellGridPos x="15" y="9" z="1" />
+  </Cell>
+  <Cell id="508" CellType="4000033">
+    <CellPos x="2" y="0" z="2" />
+    <CellGridPos x="12" y="12" z="1" />
+  </Cell>
+  <Cell id="510" CellType="4000033">
+    <CellPos x="2" y="0" z="1" />
+    <CellGridPos x="12" y="11" z="1" />
+  </Cell>
+  <Cell id="512" CellType="4000033">
+    <CellPos x="3" y="0" z="1" />
+    <CellGridPos x="13" y="11" z="1" />
+  </Cell>
+  <Cell id="514" CellType="4000033">
+    <CellPos x="3" y="0" z="2" />
+    <CellGridPos x="13" y="12" z="1" />
+  </Cell>
+  <Cell id="516" CellType="4000033">
+    <CellPos x="4" y="0" z="2" />
+    <CellGridPos x="14" y="12" z="1" />
+  </Cell>
+  <Cell id="518" CellType="4000033">
+    <CellPos x="5" y="0" z="2" />
+    <CellGridPos x="15" y="12" z="1" />
+  </Cell>
+  <Cell id="520" CellType="4000033">
+    <CellPos x="4" y="0" z="1" />
+    <CellGridPos x="14" y="11" z="1" />
+  </Cell>
+  <Cell id="522" CellType="4000033">
+    <CellPos x="5" y="0" z="1" />
+    <CellGridPos x="15" y="11" z="1" />
+  </Cell>
+  <Cell id="524" CellType="4000035">
+    <CellPos x="3" y="0" z="2.999999" />
+    <CellGridPos x="13" y="13" z="1" />
+  </Cell>
+  <Cell id="526" CellType="4000035">
+    <CellPos x="4" y="0" z="2.999999" />
+    <CellGridPos x="14" y="13" z="1" />
+  </Cell>
+  <Cell id="528" CellType="4000035">
+    <CellPos x="5" y="0" z="2.999999" />
+    <CellGridPos x="15" y="13" z="1" />
+  </Cell>
+  <Cell id="532" CellType="4000039">
+    <CellPos x="6" y="0" z="2.999999" />
+    <CellGridPos x="16" y="13" z="1" />
+  </Cell>
+  <Cell id="534" CellType="4000035">
+    <CellPos x="6" y="0" z="2" />
+    <CellGridPos x="16" y="12" z="1" />
+  </Cell>
+  <Cell id="536" CellType="4000035">
+    <CellPos x="6" y="0" z="1" />
+    <CellGridPos x="16" y="11" z="1" />
+  </Cell>
+  <Cell id="538" CellType="4000035">
+    <CellPos x="6" y="0" z="0" />
+    <CellGridPos x="16" y="10" z="1" />
+  </Cell>
+  <Cell id="540" CellType="4000035">
+    <CellPos x="6" y="0" z="-1" />
+    <CellGridPos x="16" y="9" z="1" />
+  </Cell>
+  <Cell id="542" CellType="4000035">
+    <CellPos x="2" y="0" z="-2" />
+    <CellGridPos x="12" y="8" z="1" />
+  </Cell>
+  <Cell id="544" CellType="4000035">
+    <CellPos x="2" y="0" z="-3" />
+    <CellGridPos x="12" y="7" z="1" />
+  </Cell>
+  <Cell id="546" CellType="4000035">
+    <CellPos x="2" y="0" z="-4" />
+    <CellGridPos x="12" y="6" z="1" />
+  </Cell>
+  <Cell id="548" CellType="4000035">
+    <CellPos x="2" y="0" z="-5" />
+    <CellGridPos x="12" y="5" z="1" />
+  </Cell>
+  <Cell id="550" CellType="4000035">
+    <CellPos x="2" y="0" z="-6" />
+    <CellGridPos x="12" y="4" z="1" />
+  </Cell>
+  <Cell id="552" CellType="4000035">
+    <CellPos x="2" y="0" z="-7" />
+    <CellGridPos x="12" y="3" z="1" />
+  </Cell>
+  <Cell id="554" CellType="4000035">
+    <CellPos x="2" y="0" z="-8" />
+    <CellGridPos x="12" y="2" z="1" />
+  </Cell>
+  <Cell id="556" CellType="4000035">
+    <CellPos x="2" y="0" z="-9" />
+    <CellGridPos x="12" y="1" z="1" />
+  </Cell>
+  <Cell id="558" CellType="4000035">
+    <CellPos x="6" y="0" z="-2" />
+    <CellGridPos x="16" y="8" z="1" />
+  </Cell>
+  <Cell id="560" CellType="4000035">
+    <CellPos x="6" y="0" z="-3" />
+    <CellGridPos x="16" y="7" z="1" />
+  </Cell>
+  <Cell id="562" CellType="4000035">
+    <CellPos x="6" y="0" z="-5" />
+    <CellGridPos x="16" y="5" z="1" />
+  </Cell>
+  <Cell id="564" CellType="4000035">
+    <CellPos x="6" y="0" z="-4" />
+    <CellGridPos x="16" y="6" z="1" />
+  </Cell>
+  <Cell id="566" CellType="4000035">
+    <CellPos x="6" y="0" z="-6" />
+    <CellGridPos x="16" y="4" z="1" />
+  </Cell>
+  <Cell id="568" CellType="4000035">
+    <CellPos x="6" y="0" z="-7" />
+    <CellGridPos x="16" y="3" z="1" />
+  </Cell>
+  <Cell id="570" CellType="4000035">
+    <CellPos x="6" y="0" z="-8" />
+    <CellGridPos x="16" y="2" z="1" />
+  </Cell>
+  <Cell id="572" CellType="4000035">
+    <CellPos x="6" y="0" z="-9" />
+    <CellGridPos x="16" y="1" z="1" />
+  </Cell>
+  <Cell id="574" CellType="4000033">
+    <CellPos x="5" y="0" z="-2" />
+    <CellGridPos x="15" y="8" z="1" />
+  </Cell>
+  <Cell id="576" CellType="4000033">
+    <CellPos x="4" y="0" z="-2" />
+    <CellGridPos x="14" y="8" z="1" />
+  </Cell>
+  <Cell id="578" CellType="4000033">
+    <CellPos x="3" y="0" z="-2" />
+    <CellGridPos x="13" y="8" z="1" />
+  </Cell>
+  <Cell id="580" CellType="4000033">
+    <CellPos x="5" y="0" z="-3" />
+    <CellGridPos x="15" y="7" z="1" />
+  </Cell>
+  <Cell id="582" CellType="4000033">
+    <CellPos x="4" y="0" z="-3" />
+    <CellGridPos x="14" y="7" z="1" />
+  </Cell>
+  <Cell id="584" CellType="4000033">
+    <CellPos x="3" y="0" z="-3" />
+    <CellGridPos x="13" y="7" z="1" />
+  </Cell>
+  <Cell id="586" CellType="4000033">
+    <CellPos x="3" y="0" z="-4" />
+    <CellGridPos x="13" y="6" z="1" />
+  </Cell>
+  <Cell id="588" CellType="4000033">
+    <CellPos x="4" y="0" z="-4" />
+    <CellGridPos x="14" y="6" z="1" />
+  </Cell>
+  <Cell id="590" CellType="4000033">
+    <CellPos x="5" y="0" z="-4" />
+    <CellGridPos x="15" y="6" z="1" />
+  </Cell>
+  <Cell id="592" CellType="4000033">
+    <CellPos x="5" y="0" z="-5" />
+    <CellGridPos x="15" y="5" z="1" />
+  </Cell>
+  <Cell id="594" CellType="4000033">
+    <CellPos x="4" y="0" z="-5" />
+    <CellGridPos x="14" y="5" z="1" />
+  </Cell>
+  <Cell id="596" CellType="4000033">
+    <CellPos x="3" y="0" z="-5" />
+    <CellGridPos x="13" y="5" z="1" />
+  </Cell>
+  <Cell id="598" CellType="4000033">
+    <CellPos x="3" y="0" z="-6" />
+    <CellGridPos x="13" y="4" z="1" />
+  </Cell>
+  <Cell id="600" CellType="4000033">
+    <CellPos x="4" y="0" z="-6" />
+    <CellGridPos x="14" y="4" z="1" />
+  </Cell>
+  <Cell id="602" CellType="4000033">
+    <CellPos x="5" y="0" z="-6" />
+    <CellGridPos x="15" y="4" z="1" />
+  </Cell>
+  <Cell id="604" CellType="4000033">
+    <CellPos x="3" y="0" z="-7" />
+    <CellGridPos x="13" y="3" z="1" />
+  </Cell>
+  <Cell id="606" CellType="4000033">
+    <CellPos x="3" y="0" z="-8" />
+    <CellGridPos x="13" y="2" z="1" />
+  </Cell>
+  <Cell id="608" CellType="4000033">
+    <CellPos x="3" y="0" z="-9" />
+    <CellGridPos x="13" y="1" z="1" />
+  </Cell>
+  <Cell id="610" CellType="4000033">
+    <CellPos x="4" y="0" z="-9" />
+    <CellGridPos x="14" y="1" z="1" />
+  </Cell>
+  <Cell id="614" CellType="4000033">
+    <CellPos x="4" y="0" z="-8" />
+    <CellGridPos x="14" y="2" z="1" />
+  </Cell>
+  <Cell id="616" CellType="4000033">
+    <CellPos x="4" y="0" z="-7" />
+    <CellGridPos x="14" y="3" z="1" />
+  </Cell>
+  <Cell id="618" CellType="4000033">
+    <CellPos x="5" y="0" z="-7" />
+    <CellGridPos x="15" y="3" z="1" />
+  </Cell>
+  <Cell id="620" CellType="4000033">
+    <CellPos x="5" y="0" z="-8" />
+    <CellGridPos x="15" y="2" z="1" />
+  </Cell>
+  <Cell id="622" CellType="4000033">
+    <CellPos x="5" y="0" z="-9" />
+    <CellGridPos x="15" y="1" z="1" />
+  </Cell>
+  <Cell id="628" CellType="4000039">
+    <CellPos x="6" y="0" z="-10" />
+    <CellGridPos x="16" y="0" z="1" />
+  </Cell>
+  <Cell id="630" CellType="4000039">
+    <CellPos x="2" y="0" z="-10" />
+    <CellGridPos x="12" y="0" z="1" />
+  </Cell>
+  <Cell id="632" CellType="4000037">
+    <CellPos x="3" y="0" z="-10" />
+    <CellGridPos x="13" y="0" z="1" />
+  </Cell>
+  <Cell id="636" CellType="4000037">
+    <CellPos x="5" y="0" z="-10" />
+    <CellGridPos x="15" y="0" z="1" />
+  </Cell>
+  <Cell id="638" CellType="4000039">
+    <CellPos x="4" y="0" z="-10" />
+    <CellGridPos x="14" y="0" z="1" />
+  </Cell>
+  <Cell id="640" CellType="3100027">
+    <CellPos x="4" y="1.01" z="-10" />
+    <CellGridPos x="14" y="0" z="1" />
+  </Cell>
+  <Cell id="641" CellType="3200012">
+    <CellPos x="-5" y="1.01" z="1" />
+    <CellGridPos x="5" y="11" z="1" />
+  </Cell>
+</MapInfo>
