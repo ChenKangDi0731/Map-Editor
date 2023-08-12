@@ -35,7 +35,7 @@ IDを使用してゲームオブジェクトを生成し、マップを作成し
 2. GameConfigオブジェクトのGameConfigスクリプトのIsEditModeにチェックを入れる。<br>
 3. 実行する(プレイモード)<br>
 
-操作案：<br>
+* 操作案：<br>
 ホイール押しっぱなし＋マウス移動：カメラ平行移動<br>
 Q Eキー：カメラ回転<br>
 ホイール：ズームイン、ズームアウト<br>
@@ -43,10 +43,10 @@ Q Eキー：カメラ回転<br>
 B＋Zキー：巻き戻し<br>
 B＋Yキー：やり直し<br>
 
-![image](https://github.com/ChenKangDi0731/Map-Editor/assets/141888890/28b8a508-8dba-4001-a033-4f879adb6c84)<br>
+![image](https://github.com/ChenKangDi0731/Map-Editor/blob/main/Image/1.png)<br>
 オブジェクトタイプ切り替え（IDはプリハブの名前の＃の後ろの番号であり、入力後Enterキーを押せば切り替えできます。)<br>
 
-![image](https://github.com/ChenKangDi0731/Map-Editor/assets/141888890/93b7387d-055a-4180-8ce5-56e8b651a12e)<br>
+![image](https://github.com/ChenKangDi0731/Map-Editor/blob/main/Image/2.png)<br>
 マップ保存:名前を入力後、SaveMapボタンを押せば保存できます。<br>
 
 
@@ -54,7 +54,7 @@ B＋Yキー：やり直し<br>
 1. プレイモードを停止。<br>
 2. 新しいGameObjectを作り、LoadMapToolスクリプトを追加し、Map XML File Nameのところに先ほど保存したマップの名前を入力する。<br>
 3. LoadMapToolスクリプトに右クリックし、まずload all prefabs config関数を実行する。次はload map（xml）関数を実行すればマップがロードされます。<br>
-![image](https://github.com/ChenKangDi0731/Map-Editor/assets/141888890/b19e6ec4-2322-4caa-a143-78a8f4a9ff76)<br>
+![image](https://github.com/ChenKangDi0731/Map-Editor/blob/main/Image/3.png)<br>
 
 
 # 制作者
